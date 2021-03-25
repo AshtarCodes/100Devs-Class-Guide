@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* 7.594rem   */
+/* 5.063rem  */
+/* 3.375rem */
+/* 2.25rem */
+/* 1.5rem */
+/* 1.rem */
+/* #164bc5  blue*/
+/* #0f9640  green*/
+/* #7b7b7b grey */
+/* #ed1b24 red */
+/* rgb(22, 119, 190) button blue */
+/* rgb(22, 24, 49); */
+/* rgb(55, 61, 111); */
+/* #b0c8ff */
+
+/* universal */
+li{
+    list-style: none;
+}
+.lesson a{
+    display: block;
+}
+a{
+    color: #164bc5;
+    
+}
+span{
+    display: inline-block;
+}
+#rc{
+    color: #ed1b24;
+}
+#leon{
+    color: #b0c8ff;
+}
+/* fonts */
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.375rem;
+}
+h3{
+    font-size: 2.25rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h1{
+    color: white;
+}
+h2,h3,h4{
+    color: rgb(22, 24, 49);
+}
+h4{
+    opacity: .8;
+}
+p{
+    font-size: 1.5rem;
+    color: #7b7b7b;
+}
+a, option, .codeBtn{
+    font-size: 1.5rem;
+}
+span{
+    font-size: 1.2rem;
+}
+/* padding classes */
+.paddingBox{
+    padding: 3.375rem;
+}
+.paddingL{
+    padding-left: 1.5rem;
+}
+.paddingR{
+    padding-right: 1.5rem;
+}
+.paddingT{
+    padding-top: 1.5rem;
+}
+.paddingB{
+    padding-bottom: 1.5rem;
+}
+.paddingL2{
+    padding-left: 3.375rem;
+}
+.paddingR2{
+    padding-right: 3.375rem;
+}
+.paddingT2{
+    padding-top: 3.375rem;
+}
+.paddingB2{
+    padding-bottom: 3.375rem;
+}
+.maring-top{
+    margin-top: 1.5rem;
+}
+/* layout */
+.land{
+    display: flex;
+    background-color: white;
+    min-height: 100vh;
+}
+
+/* menu  */
+.menu{
+    width: 100%;
+    background: rgb(22, 24, 49);
+}
+.menu span, .menu p{
+    color: white;
+}
+select, .codeBtn{
+    width: 20%;
+    height: 3.375rem;
+}
+select{
+    height: 4rem;
+}
+.codeBtn{
+    border-radius: .5rem;
+    background: #b0c8ff;
+    color: rgb(22, 24, 49);
+    border: none;
+}
+i{
+    font-size: 7.594rem;
+}
+/* lesson  */
+.lesson{
+    width: 65%;    
+}
+.btn{
+    background: rgb(55, 61, 111);
+    color: white;
+    
+}
+.classLinks{
+    display: flex;
+    flex-direction: column;
+}
+.classLinks a{
+    display: inline-block;
+    width: 15.2rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+/* @media  */
+@media(max-width: 500px){
+    .land{
+        flex-direction: column;
+    }
+    .menu{
+        width: 100%;
+    }
+}
